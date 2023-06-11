@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,400&family=Oswald:wght@300&display=swap');
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    body{
+        background-color: darkgray;
+    }
+
+    .logo img{
+        height: 4.375em;
+        width: auto;
+    }
+    
+    .header .logo{
+        padding: 1.25em;
+    }
+    
+    .header{
+        background-color: rgb(90, 150, 179);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;      
+    }
+    
+    .header .ul-navbar li{
+        display: inline-block;
+        padding: 1.875em 1.25em;
+    }
+    
+/* index.html */
+
+    .divContainerProyectos{
+        background-color: darkgray;
+        height: 18.75em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .divContainerImgProyectos img{
+        height: 12.5em;
+        width: auto;
+    }
+    
+    .divContainerImgProyectos{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: auto;
+        width: auto;
+        padding: 1.875em;
+        gap: 1.25em;
+    }
+    
+    .div-extra{
+        background-color: rgb(112, 112, 112);
+        width: 87.5em;
+        width: auto;
+        border-radius: 3.125em;
+    }
+    
+    .h2{
+        background-color: darkgray;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .h2 h2{
+        padding-top: 1.25em;
+    }
+    
+    nav .ul-navbar li a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(90, 150, 179);
+    }
+    
+    .footer ul{
+        margin: 1.25em;
+        list-style: none;
+    }
+    
+    .logo-footer img{
+        height: 4.375em;
+        width: auto;
+    }
+    
+    .logo-footer{
+        margin: 1.25em;
+    }
+    
+/*proyectos.html*/
+
+    .proyecto1 {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        gap: 10px;
+        margin: 2em;
+    }
+      
+      .grid-item {
+        background-color: #dddddd; 
+        padding: 20px; 
+    }
+    
+      .p1-proyecto1{
+        background-color: #dddddd; 
+        padding: 20px; 
+        grid-column: span 2;
+    }
+    
+    
+    .img-proyecto1{
+        width: 20em;
+    }
+    
+    .h2-proyectos{
+        background-color:darkgray;
+        text-align: center;
+        padding-top: 1em;
+    }
+    
+    .carousel{
+        width: 100%;
+        padding: 1em 35em 3em 35em;
+    
+    }
+    
+    .titulo-lugar{
+        text-align: center;
+        padding: 1em;
+    }
+
+/* sobrenosotros.html */
+
+
+    .img-sobrenosotros{
+    width: 25em;
+    height: 25em;
+    }
+
+    .divh1-sobrenosotros{
+    text-align: center;
+    padding-top: 1em;
+    }
+
+    .main-sobrenosotros{
+    width: auto;
+    height: 1000px;
+    }
+
+    .img-proyecto2{
+    width: 500px;
+    height: 400px;
+    }
+
+    .DivContainerImgSobreNosotros{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 100px 0px 100px;
+    }
+
+    @media screen and (max-width: 800px){
+    
+    .header{
+        background-color: rgb(90, 150, 179);
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+    }
+
+    .header .ul-navbar li{
+        display: inline-block;
+        padding-left: 2px;
+        margin: 1px;
+        font-size:x-small;
+    }
+
+    .logo img{
+        height: 2em;
+        width: auto;
+    }
+    
+    .img-sobrenosotros{
+        width: 100%;
+        height: 400px;
+        padding: 2em;
+    }
+
+    .divh1-sobrenosotros{
+        text-align: center;
+        padding-top: 2em;
+    }
+
+    .p-sobrenostros{
+        padding: 1em;
+    }
+
+/* contacto.html */
+
+    
+    
+}
+    
